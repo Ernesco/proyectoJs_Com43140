@@ -70,7 +70,6 @@ const mostrarCarrito = () => {
             saveLocal();
             mostrarCarrito()
         })
-
         //eliminar articulo
         let eliminar = carritoContent.querySelector(".delete-product");
         eliminar.addEventListener("click", () => {
@@ -119,3 +118,4 @@ verCarrito.addEventListener("click", mostrarCarrito)
     localStorage.setItem("carritoLength", JSON.stringify(carritoLength))
     cantidadCarrito.innerText = JSON.parse(localStorage.getItem("carritoLength"))
 }
+

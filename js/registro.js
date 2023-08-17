@@ -3,6 +3,7 @@
 	const registroUser = document.querySelector('#registroUser')
 	const registroEmail = document.querySelector('#registroEmail')
 	const registroPass = document.querySelector('#registroPass')
+	const fin = document.querySelector('#fin')
 
 		let validar = () => {
 			let inputs_requeridos = document.querySelectorAll('#frmRegistro [required]')
@@ -46,3 +47,5 @@
 		}
 	}
 		registroBtn.addEventListener('click', obtenerDatos);
+
+	
