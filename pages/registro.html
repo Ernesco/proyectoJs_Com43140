@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse - Uma Blanqueria</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logoNav">
+            <a href="../index.html"><img src="../img/logoUma.png" alt="Logo"></a>
+        </div>
+    </header>   
+    <main>
+        <form id="frmRegistro">
+            <div class="form">
+                    <h2>Registrarse</h2>
+                <div class="registrar">
+                    <i class='bx bx-user'></i>
+                    <input type="text" placeholder="Usuario" id="registroUser" required>
+                </div>
+                <div class="registrar">
+                    <i class='bx bx-envelope' ></i>
+                    <input type="text" placeholder="Correo Electronico" id="registroEmail" required>
+                </div>
+                <div class="registrar">
+                    <i class='bx bxs-key'></i>
+                    <input type="text" placeholder="Contraseña" id="registroPass" required>
+                </div>
+                <div class="registrar">
+                    <button type="button" class="boton" id="registroBtn">Registrarse</button>
+                </div>
+                    <p>Al registrarte, aceptas nuestras concidiciones de uso y politicas de privacidad</p>
+                    <p>¿Ya tenes cuenta? <a href="./login.html" class="link">Iniciar Sesión</a></p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <section>
+            <div class="novedades">
+                <p class="nov">¡Siempre hay novedades para vos!</p>
+                <p class="nov">Suscribite a nuestro Newsletter</p>
+                <form action="">
+                    <label for="search">Email:</label>
+                    <input type="search" name="" id="search">
+                    <input type="submit">
+                </form>
+                <hr>
+            </div>
+        </section>
+        <section>
+            <div class="redes">
+                <a href="https://www.instagram.com/nicolassaya/" target="_blank"><img src="https://i.postimg.cc/SNFdY3mw/Instagram.png" alt="Instagram" class="insta"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="https://i.postimg.cc/Twc2qfm8/facebook.png" alt="Facebook" class="face"></a>
+                <a href="https://www.tiktok.com/" target="_blank"><img src="https://i.postimg.cc/FzB4DRH6/tik-tok.png" alt="Tik-Tok" class="tik"></a>
+                </div>
+        </section>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../js/registro.js"></script>
+</body>
+</html>

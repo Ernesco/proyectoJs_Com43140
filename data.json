@@ -1,0 +1,50 @@
+    [
+        {
+            "id": 1,
+            "nombre": "Jgo Sabanas linea Sense Duo",
+            "descripcion": "150 Hilos 100% algodon",
+            "precio": 22800,
+            "img": "./img/sabana_cor_100.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 2,
+            "nombre": "Jgo Sabanas linea Sense Duo",
+            "descripcion": "150 Hilos 100% algodon",
+            "precio": 22800,
+            "img": "./img/sabana_cel_100.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 3,
+            "nombre": "Jgo Sabanas linea Nativa",
+            "descripcion": "150 Hilos",
+            "precio": 19100,
+            "img": "./img/sabana_gri_150.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 4,
+            "nombre": "Jgo Sabanas linea Nativa",
+            "descripcion": "150 Hilos",
+            "precio": 19100,
+            "img": "./img/sabana_cel_150.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 5,
+            "nombre": "Jgo Sabanas linea Dover",
+            "descripcion": "180 Hilos",
+            "precio": 22800,
+            "img": "./img/sabana_ros_180.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 6,
+            "nombre": "Jgo Sabanas linea Dover",
+            "descripcion": "180 Hilos",
+            "precio": 22800,
+            "img": "./img/sabana_ver_180.jpg",
+            "cantidad": 1
+        }
+    ]

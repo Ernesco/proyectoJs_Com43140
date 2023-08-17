@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 80px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #e0e0e0;
+}
+
+.logoNav img {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    margin: 50px;
+}
+
+.navBar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-right: 30px;
+}
+
+.navBar a:hover {
+    color: blueviolet;
+}
+
+.logoNav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #e0e0e0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+
+.buscador {
+    height: 50px;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #e0e0e0;
+}
+
+.slider {
+    display: flex;
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slider-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(300px * 7);
+}
+
+.slider .slide {
+    display: flex;
+    width: 1000px;
+}
+
+.slider .slide p {
+    display: flex;
+    width: 500px;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-300px *14));
+        transform: translateX(calc(-300px * 14));
+    }
+}
+
+.sabacol,
+.frazadas,
+.infantil,
+.edredon,
+.juvenil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sabacol {
+    background-image: url(../img/bannerSabanasyAcolchados.jpg);
+    width: 300px;
+    height: 150px;
+    margin-left: 39%;
+}
+
+.frazadas {
+    background-image: url(../img/bannerFrazadas.jpg);
+    width: 300px;
+    height: 100px;
+    margin-left: 39%;
+}
+
+.edredon {
+    background-image: url(../img/bannerEdredon.jpg);
+    width: 300px;
+    height: 100px;
+    margin-left: 39%;
+}
+
+.juvenil {
+    background-image: url(../img/bannerJuvenil.jpg);
+    width: 300px;
+    height: 110px;
+    margin-left: 39%;
+}
+
+.infantil {
+    background-image: url(../img/bannerInfantil.jpg);
+    width: 300px;
+    height: 120px;
+    margin-left: 39%;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.face {
+    width: 30px;
+    margin: 10px;
+}
+
+.insta {
+    width: 30px;
+    margin: 10px;
+}
+
+.tik {
+    width: 30px;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 20px 20px;
+}
+
+form {
+    margin: 40px;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin: 5px;
+}
+
+.registrar, .login {
+    margin-bottom: 15px;
+}
+
+.registrar,.login, input {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.boton {
+    border: none;
+    width: 120%;
+    color: white;
+    font-size: 16px;
+    background-color: #0a3d62;
+    padding: 12px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: darkcyan;
+}
+
+.link {
+    text-decoration: none;
+    color: #ff5252;
+    font-weight: 200;
+}
+
+.novedades p {
+    text-align: center;
+    line-height: 1px;
+    padding: 10px;
+    border: 10px;
+    margin: 0px;
+}
+
+.shop-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.card {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin: 10px;
+}
+
+.card img {
+    width: 90%;
+    height: 250px;
+}
+.card h5{
+    margin: 10px;
+}
+.card p{
+    margin-bottom: 10px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #999999;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    background-color: #494949;
+}
+
+/*modal content*/
+.modal-container {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: #fff;
+    background-color: #5b5858;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*for the top*/
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+    /*  saca la barra de scroll */
+    display: none;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #a7a7a7ba;
+    color: #000000;
+    width: 100%;
+}
+
+.modal-header-title {
+    justify-self: start;
+}
+
+.modal-header-button {
+    cursor: pointer;
+}
+
+.modal-container>.modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.modal-container>div>img {
+    height: 120px;
+    width: 120px;
+}
+
+.total-content {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*se agregaron unas lineas de css con media querys para que se adapte mejor al responsive :)*/
+
+@media only screen and (max-width: 750px) {
+    .modal-container {
+        width: 100%;
+        margin: 0;
+        min-height: 88vh;
+    }
+
+    .modal-container>.modal-content {
+        justify-content: space-between;
+        width: 100%;
+        margin: 2px;
+    }
+
+    .modal-container>div>img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+/*delete button product*/
+.delete-product {
+    cursor: pointer;
+}
+
+/*CarritoCounter*/
+.cantidadCarrito {
+    background-color: rgba(0, 119, 255, 0.877);
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+}
+
+.sumar {
+    cursor: pointer;
+}
+
+.restar {
+    cursor: pointer;
+}
+
+.proximamente {
+    display: flex;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 30px;
+    justify-content: center;
+}
+
+.input-error{
+    border: 2px solid red;
+}
