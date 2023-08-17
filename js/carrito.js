@@ -9,7 +9,7 @@ const mostrarCarrito = () => {
         `;
     modalContainer.append(modalHeader);
     const modalbutton = document.createElement("h1");
-    modalbutton.innerText = "x";
+    modalbutton.innerText = "X";
     modalbutton.className = "modal-header-button";
     modalbutton.addEventListener("click", () => {
         modalContainer.style.display = "none";
